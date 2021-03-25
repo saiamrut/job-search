@@ -105,3 +105,8 @@ dist
 
 # Virtual env folder
 venv/
+
+# VS code files
+.idea/
+.vscode/
+.DS_Store/
