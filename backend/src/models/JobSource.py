@@ -1,4 +1,6 @@
+"""Datbase model for Job Source"""
 from config import db
+
 
 class JobSource(db.Model):
     __tablename__ = "job_sources"

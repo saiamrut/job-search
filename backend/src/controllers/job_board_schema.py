@@ -1,9 +1,11 @@
+""" Schema for Job board model"""
 from config import ma
 from marshmallow import fields
 from models.JobBoard import JobBoard
 
+
 class JobBoardSchema(ma.Schema):
-    # job_opportunities = fields.Nested('JobOpportunitySchema', default=None, many=True)
+    """Loads fields using Marshmallow schema"""
     id = fields.Int(dump_only=True)
     name = fields.String()
     rating = fields.String()
