@@ -78,4 +78,9 @@ This will spinup the server at <http://localhost:5000/>
     2. Flask, SQLAlchemy, Marshmallow: Framework to build database and create API endpoints
     3. Antd: React UI library to build high quality components
 
+5. Please use the following links to:
+    1. View Job Boards : <http://localhost:3000/> 
+    2. View Job opportunities for each board: Either click on one of the job boards or navigate to <http://localhost:3000/{JobBoardName}/{JobBoardId}> 
+
+
 
